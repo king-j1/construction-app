@@ -1,91 +1,120 @@
-// Shared content data for ConstructX
-
-export const projects = [
+export const heroImages = [
   {
-    id: 1,
-    title: "Aurora Sky Tower",
-    category: "Commercial",
-    location: "Neo District",
-    year: "2025",
-    img: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=900&q=70",
+    title: "Modern Infrastructure",
+    image:
+      "https://images.unsplash.com/photo-1465447142348-e9952c393450?auto=format&fit=crop&w=1600&q=80",
   },
   {
-    id: 2,
-    title: "Helix Smart Residences",
-    category: "Residential",
-    location: "Harbour Bay",
-    year: "2024",
-    img: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=70",
+    title: "Renewable Energy",
+    image:
+      "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1600&q=80",
   },
   {
-    id: 3,
-    title: "Quantum Logistics Hub",
-    category: "Industrial",
-    location: "East Gateway",
-    year: "2025",
-    img: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=900&q=70",
-  },
-  {
-    id: 4,
-    title: "Nova Civic Bridge",
-    category: "Infrastructure",
-    location: "River Cross",
-    year: "2023",
-    img: "https://images.unsplash.com/photo-1496588152823-86ff7695e68f?auto=format&fit=crop&w=900&q=70",
-  },
-  {
-    id: 5,
-    title: "Lumina Glass Pavilion",
-    category: "Commercial",
-    location: "Central Plaza",
-    year: "2024",
-    img: "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=900&q=70",
-  },
-  {
-    id: 6,
-    title: "Eden Eco Villas",
-    category: "Residential",
-    location: "Green Ridge",
-    year: "2025",
-    img: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=70",
+    title: "African Urban Development",
+    image:
+      "https://images.unsplash.com/photo-1576485290814-1c72aa4bbb8e?auto=format&fit=crop&w=1600&q=80",
   },
 ];
 
-export const reviews = [
+export const coreValues = [
+  "Innovation",
+  "Integrity",
+  "Engineering Excellence",
+  "Sustainable Development",
+];
+
+export const services = [
   {
-    name: "Amara Okafor",
-    loc: "CEO, Helix Group",
-    rating: 5,
-    text: "ConstructX delivered our 40-storey tower two months ahead of schedule. Their robotic precision and transparency were unreal.",
+    title: "Electrical Engineering",
+    items: [
+      "Industrial electrical systems",
+      "Commercial installations",
+      "Infrastructure electrical solutions",
+      "Maintenance and modernization",
+    ],
   },
   {
-    name: "Daniel Reyes",
-    loc: "Homeowner, Green Ridge",
-    rating: 5,
-    text: "From the 3D walkthrough to the smart-home handover, every step felt like living in the future. Beautiful craftsmanship.",
+    title: "Construction & Infrastructure",
+    items: [
+      "Building projects",
+      "Infrastructure development",
+      "Project management",
+      "Engineering construction",
+    ],
   },
   {
-    name: "Sofia Lindqvist",
-    loc: "Director, Nova Civic",
-    rating: 5,
-    text: "Their infrastructure team rebuilt our bridge with zero downtime to traffic. Engineering excellence at another level.",
+    title: "Renewable Energy",
+    items: [
+      "Solar energy solutions",
+      "Energy efficiency",
+      "Clean energy systems",
+      "Sustainable power infrastructure",
+    ],
   },
   {
-    name: "Marcus Bennett",
-    loc: "Founder, Quantum Labs",
-    rating: 5,
-    text: "The logistics hub is a masterpiece of sustainable design. Energy bills dropped 38% thanks to their smart systems.",
+    title: "Technology & Innovation",
+    items: [
+      "Digital platforms",
+      "Smart infrastructure",
+      "Software solutions",
+      "Intelligent monitoring systems",
+    ],
   },
   {
-    name: "Priya Nair",
-    loc: "Architect Partner",
-    rating: 5,
-    text: "Collaborating with ConstructX is seamless. They turned our boldest concepts into a buildable, stunning reality.",
+    title: "Electric Mobility",
+    items: [
+      "EV infrastructure",
+      "Battery swapping systems",
+      "Sustainable transportation solutions",
+    ],
+  },
+];
+
+export const whyRuvasgod = [
+  "20+ Years Engineering Experience",
+  "International Project Experience",
+  "Electrical Engineering Expertise",
+  "Commitment to Ghana Development",
+  "Technology Driven Solutions",
+  "Strategic Global Partnerships",
+];
+
+export const visionCommitments = [
+  "Industrial growth",
+  "Renewable energy transition",
+  "Local skills development",
+  "Job creation",
+  "Technology transfer",
+  "Sustainable communities",
+];
+
+export const featuredProjects = [
+  {
+    title: "Electrical Infrastructure Projects",
+    description:
+      "Placeholder for high-impact electrical grid, distribution, and industrial power projects.",
+    image:
+      "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1400&q=80",
   },
   {
-    name: "Liam Carter",
-    loc: "Retail Developer",
-    rating: 5,
-    text: "Professional, futuristic and dependable. The Lumina Pavilion has become the most photographed building in the city.",
+    title: "Renewable Energy Projects",
+    description:
+      "Placeholder for utility-scale solar, hybrid energy, and clean power implementation case studies.",
+    image:
+      "https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=1400&q=80",
+  },
+  {
+    title: "Construction Projects",
+    description:
+      "Placeholder for building construction and strategic infrastructure delivery portfolios.",
+    image:
+      "https://images.unsplash.com/photo-1581092921461-eab10380ea37?auto=format&fit=crop&w=1400&q=80",
+  },
+  {
+    title: "Future Electric Mobility Projects",
+    description:
+      "Placeholder for EV mobility corridors and battery-swapping infrastructure initiatives.",
+    image:
+      "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&w=1400&q=80",
   },
 ];

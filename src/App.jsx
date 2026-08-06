@@ -10,10 +10,9 @@ import Contact from "./pages/Contact.jsx";
 export default function App() {
   return (
     <>
-      <div className="bg-fx" aria-hidden="true" />
       <ScrollToTop />
       <Navbar />
-      <main>
+      <main className="min-h-[70vh]">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />

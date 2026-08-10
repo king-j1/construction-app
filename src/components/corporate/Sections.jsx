@@ -352,9 +352,9 @@ export function FounderSection() {
       <div className="surface-card-strong grid gap-8 p-8 md:grid-cols-[320px,1fr] md:items-center">
         <div className="surface-card overflow-hidden bg-slate-800/80">
           <img
-            src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=900&q=80"
+            src="/image/v1.jpeg"
             alt="Founder portrait placeholder"
-            className="h-80 w-full object-cover md:h-96"
+            className="h-56 w-full object-contain md:h-72"
             loading="lazy"
             decoding="async"
           />
